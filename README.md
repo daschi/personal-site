@@ -63,16 +63,16 @@
 
 ### Wireframe & Userflow
 
-Home <—> posts#index
-Home <—> posts#show
-    posts#index <—> Posts#show
-Home <—> projects#index
-Home <—> projects#show
-    projects#index <—> projects#show
-Home <—> Contact —> Form Success —> Home
+- Home <—> posts#index
+- Home <—> posts#show
+    - posts#index <—> Posts#show
+- Home <—> projects#index
+- Home <—> projects#show
+    - projects#index <—> projects#show
+- Home <—> Contact —> Form Success —> Home
 
 USER ONLY - Visitor would never see this
-Login —> New Post
-Login —> New Project
-New Post —> Edit/Destroy Post
-New Project —> Edit/Destroy Project
+- Login —> New Post
+- Login —> New Project
+- New Post —> Edit/Destroy Post
+- New Project —> Edit/Destroy Project
