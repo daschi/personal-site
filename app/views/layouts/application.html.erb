@@ -1,13 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>PersonalSite</title>
+  <title>Daniela Anna</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+	<header id="main_navigation" class="clearfix">
+		<a href="#" class="name">Daniela Schiano di Cola</a>
+		<nav>
+			<a href="#">Posts</a>
+			<a href="#">Projects</a>
+			<a href="#">Contact</a>
+		</nav>
+	</header>
 
+	<div class="wrapper wrapper_padding clearfix">
+		<div class="col-1 about homepage_content">
+			<h2>About</h2>
+			<hr>
+			<p>I'm in the 2015 <a href="#">DevBootcamp</a> cohort and I'll be spending the next few months learning the world of web development. Previously I've been a localization project manager, instructional designer, eLearning developer, elementary school reading coach, floral designer and jewelry maker.</p>
+			<p>I'm a huge language nerd and I love learning about the nuances in languages and conveying meaning. My goal is to work within all these fields at once--bringing together a full force of instructional design, web development, languages and culture.</p>
+			<p>This web page is my first project in DevBootcamp! Its design and structure are still in progress, so I would love any feedback or ideas you may have to improve it. Also, take a look at my blog posts if you get a chance!</p>
+		</div>
+		<div class="col-2 homepage_content">
+			<h2><a href="#">Blog Posts</a></h2>
+			<hr>
+			<h3><a href="#">Post Title</a></h3>
+			<p class="date">Date here</p>
+			<h3><a href="#">Post Title</a></h3>
+			<p class="date">Date here</p>
+			<h3><a href="#">Post Title</a></h3>
+			<p class="date">Date here</p>
+		</div>
+		<div class="col-3 homepage_content">
+			<h2><a href="#">Projects</a></h2>
+			<hr>
+			<h3><a href="#">Project Title</a></h3>
+			<p class="date">Date here</p>
+			<h3><a href="#">Project Title</a></h3>
+			<p class="date">Date here</p>
+			<h3><a href="#">Project Title</a></h3>
+			<p class="date">Date here</p>
+		</div>
+	</div>
+	<footer id="main_footer">
+		<p class="copyright">&copy;2015 Daniela Schiano di Cola</p>
+		<nav>
+			<a href="#">
+				<i class="fa fa-twitter"></i>
+			</a>
+			<a href="#">
+				<i class="fa fa-github"></i>
+			</a>
+			<a href="#">
+				<i class="fa fa-linkedin"></i>
+			</a>
+		</nav>
+	</footer>
 <%= yield %>
 
 </body>
